@@ -1,0 +1,423 @@
+@media screen and (max-width: 376px) {
+
+
+    .container {
+        width: 95%;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav ul {
+        text-align: center;
+    }
+
+    .portfolio-col-2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .portfolio {
+        margin-top: 20px;
+    }
+
+    .portfolio h1 {
+        font-size: 20px;
+    }
+
+    .btns button {
+        padding: 8px !important;
+        font-size: 10px !important;
+    }
+
+    .hero h1 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .hero p {
+        margin: 30px 0px;
+        font-size: 20px;
+    }
+
+    .hero .banner img {
+        margin-top: 30px;
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .all-c-project {
+        display: block;
+    }
+
+    .complete-project .col-2 {
+        display: block;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .complete-project .col-2 h1 {
+        font-size: 35px;
+        margin-top: -50px;
+    }
+
+    .complete-project .col-2:first-child h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .posts-section .col-3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .posts-section {
+        margin-top: 60px;
+    }
+
+    .all-posts {
+        flex-wrap: wrap;
+    }
+
+    .posts-section .col-3 img {
+        margin: 0px auto;
+    }
+
+    .all-footer-item {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    header nav ul li a {
+        font-size: 13px;
+    }
+
+    footer .col-4 {
+        padding-top: 35px;
+    }
+
+    footer .col-4 {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* header section */
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav ul {
+        text-align: center;
+    }
+
+    /* protfolio section */
+       .btns button {
+        padding: 10px !important;
+        font-size: 15px !important;
+    }
+    .portfolio-col-2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .portfolio {
+        margin-top: 20px;
+        height: max-content;
+    }
+
+    .portfolio h1 {
+        font-size: 35px;
+    }
+
+    .btns button {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+
+    /* Hero section */
+    .hero {
+        margin-top: 50px;
+    }
+
+    .hero h1 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .hero p {
+        margin: 30px 0px;
+        font-size: 20px;
+    }
+
+    .hero .banner img {
+        margin-top: 30px;
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    /* Completed project section */
+    .all-c-project {
+        display: block;
+    }
+
+    .complete-project .col-2 {
+        display: block;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .complete-project .col-2 h1 {
+        font-size: 35px;
+        margin-top: -10px;
+    }
+
+    .complete-project .col-2:first-child h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    /* Posts section */
+
+    .posts-section .col-3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .posts-section {
+        margin-top: 60px;
+    }
+
+    .all-posts {
+        flex-wrap: wrap;
+    }
+
+    .posts-section .col-3 img {
+        margin: 60px auto;
+    }
+
+    /* Footer section */
+
+    .all-footer-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    footer .col-4 {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    footer{
+        margin-top: 40px;
+    }
+    .slider-thumb::before{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+    /* header section */
+    header nav ul li a {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 30%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav {
+        width: 70%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav ul {
+        text-align: center;
+    }
+
+    /* protfolio section */
+    .portfolio-col-2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .portfolio {
+        margin-top: 0px;
+        height: max-content;
+    }
+
+    .portfolio h1 {
+        font-size: 35px;
+    }
+
+    .btns button {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+
+    /* Hero section */
+    .hero-col-2 img {
+        width: 75% !important;
+    }
+
+    .hero {
+        margin-top: 50px;
+    }
+
+    .hero h1 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .hero p {
+        margin: 30px 0px;
+        font-size: 20px;
+    }
+
+    .hero .banner img {
+        margin-top: 30px;
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    /* Completed project section */
+    .all-c-project {
+        display: block;
+    }
+
+    .complete-project .col-2 {
+        display: block;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .complete-project .col-2 h1 {
+        font-size: 35px;
+        margin-top: -10px;
+    }
+
+    .complete-project .col-2:first-child h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    /* Posts section */
+
+    .posts-section .col-3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .posts-section {
+        margin: 60px 0px;
+    }
+
+    .all-posts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .posts-section .col-3 img {
+        margin: 60px auto;
+    }
+
+    /* Footer section */
+
+    .all-footer-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    footer{
+        margin-top: 20px;
+    }
+    footer .col-4 {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+    /* header section */
+    .container {
+        width: 90%;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero-col-2 h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .hero .banner img {
+        margin-top: 40px;
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    .btns button {
+        padding: 15px;
+        border: 1px solid #3b506c;
+        border-radius: 30px;
+        font-size: 18px;
+        color: #3b506c;
+        transition: .3s all;
+        overflow: hidden;
+    }
+
+    .hero-col-2 img {
+        width: 95%;
+    }
+
+    .posts-section .col-3 img {
+        height: 179px;
+        margin: 20px auto;
+    }
+}
